@@ -51,6 +51,7 @@ font-size: 20px;
    display: inline-block;
    font-weight: 800;
    text-transform: uppercase;
+   color:#fff;
 }
 
 .logo span {
@@ -152,7 +153,7 @@ iframe {
 
 .easy-useful {
    display: block;
-   margin: 0 auto;
+   margin: 0 auto 100px auto;
    text-align: center;
 }
 
@@ -193,6 +194,146 @@ border-radius: 3px;
 box-shadow: #061e37;
    -webkit-box-shadow: 0px 10px 13px -3px rgba(6,30,55,0.85); 
    box-shadow: 0px 10px 13px -3px rgba(6,30,55,0.85);
-margin-bottom: 100px;
+
 }
+
+.counts {
+   display: flex;
+   justify-content: space-between;
+   height: 150px;
+   line-height: 1.3em;
+}
+.count {
+   display: flex;
+   font-weight: 800;
+   color: #fff;
+   margin: 0 auto;
+   align-items:center
+}
+
+.count p {
+   margin-left: 20px;
+}
+
+.bussiness {
+   background-color: #80d8ff;
+   width: 100%;
+   display: flex;
+}
+
+.downloads {
+   background-color: #82b1ff;
+   width: 100%;
+   display: flex;
+}
+
+.free-instals {
+   background-color: #b388ff;
+   width: 100%;
+   display: flex;
+}
+
+.pro-users {
+   background-color: #ea80fc;
+   width: 100%;
+   display: flex;
+}
+
+.footer {
+   height: 300px;
+   background-color:#061e37;
+}
+
+
+
+.footer logo p{
+   color: #fff;
+}
+
+.other-and-social {
+   margin-top: 45px;
+}
+.other-links {
+   display: flex;
+   width: 30%;
+   justify-content: space-between;
+   align-items:center;
+   
+}
+
+.other-links li  {
+   list-style: none;
+}
+
+.other-links a{
+   color: #384b5f;
+}
+
+.social {
+   
+   width: 10%;
+   text-align: center;
+}
+
+
+
+.wrapper {
+   padding: 85px 0;
+}
+
+.contact-us {
+   background-color: #fafafa;
+}
+
+.contact-us form {
+   padding-top: 50px;
+}
+
+.inputType {
+   width: 275px;
+   height: 45px;
+
+}
+
+textarea {
+   width: 97.5%;
+   height: 147px;
+   resize: none;
+}
+
+.wrap{
+   width: 600px;
+   padding: 100px 0;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.mtop20px {
+   margin-top: 20px;
+}
+
+.check {
+   color: #061e37;
+}
+
+.srtulerInput {
+   background-color: transparent;
+   border-radius: 3px;
+   border: 1px solid #061e37;
+   padding-left: 10px;
+   color:#061e37;
+}
+
+.srtulerInput::-moz-placeholder { 
+   color: #061e37; 
+   font-size: 14px;
+   font-family: 'Raleway', sans-serif;
+}
+.srtulerInput::-webkit-input-placeholder { 
+   color: #061e37; 
+   font-size: 14px;
+   font-family: 'Raleway', sans-serif;
+}
+
+
 
